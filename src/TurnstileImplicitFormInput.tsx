@@ -1,12 +1,17 @@
 import * as React from 'react';
 
 import { useTurnstileReady } from './api';
+import { useTurnstileSiteKey } from './siteKey';
 
 type Props = {
-  siteKey: string,
+  siteKey?: string,
 };
 
-export default function TurnstileImplicitFormInput({ siteKey }: Props) {
+export default function TurnstileImplicitFormInput({
+  siteKey: overrideSiteKey,
+}: Props) {
+  const pluginSiteKey = useTurnstileSiteKey();
+  const siteKey = overrideSiteKey || pluginSiteKey;
   const turnstileReady = useTurnstileReady();
 
   return (
