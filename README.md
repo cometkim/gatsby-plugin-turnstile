@@ -51,6 +51,18 @@ await Promise.race(
 );
 ```
 
+## Use Component API
+
+### `<TurnstileImplicitFormInput>`
+
+Turnstile implicit form injection is not availiable for Gatsby project beacuse of SSR hydration mismatch.
+
+So this plugin handle effect and client-side rendering for
+
+```js
+import { TurnstileImplicitFormInput } from 'gatsby-plugin-turnstile/src';
+```
+
 ## LICENSE
 
 MIT
