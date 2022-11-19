@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 export interface TurnstileAPI {
 
   /**
@@ -95,6 +97,14 @@ export interface TurnstileAPI {
    * Once a widget is no longer needed, it can be removed from the page using `turnstile.remove(widgetId: string)`. This will not call any callback and will remove all related DOM elements.
    */
   remove(widgetId: string): void;
+}
+
+export function useTurnstileReady() {
+  const [isReady, ready] = React.useReducer(() => true, false);
+  React.useEffect(() => {
+    window.turnstileReady.then(ready);
+  }, []);
+  return isReady;
 }
 
 declare global {
