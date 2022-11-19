@@ -24,6 +24,7 @@
     "build": "babel gatsby -x .ts,.tsx -d . --presets gatsby-package"
   },
   "files": [
+    "/index.js",
     "/src/",
     "/gatsby-*.js"
   ],
