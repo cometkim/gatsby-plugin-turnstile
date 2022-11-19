@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-turnstile",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Gatsby plugin to easily integrate Cloudflare Turnstile client-side",
   "license": "MIT",
   "keywords": [
