@@ -3,6 +3,21 @@
   "version": "1.0.0",
   "description": "A Gatsby plugin to easily integrate Cloudflare Turnstile client-side",
   "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "captcha",
+    "security"
+  ],
+  "author": {
+    "name": "Hyeseong Kim",
+    "email": "hey@hyeseong.kim"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cometkim/gatsby-plugin-turnstile.git"
+  },
+  "homepage": "https://github.com/cometkim/gatsby-plugin-turnstile",
   "packageManager": "yarn@3.3.0",
   "scripts": {
     "prepack": "yarn build",

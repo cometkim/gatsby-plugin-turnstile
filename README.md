@@ -1,5 +1,8 @@
 # gatsby-plugin-turnstile
 
+[![NPM Package](https://img.shields.io/npm/v/gatsby-plugin-turnstile)](https://www.npmjs.com/package/gatsby-plugin-turnstile)
+[![License - MIT](https://img.shields.io/github/license/cometkim/gatsby-plugin-turnstile)](#LICENSE)
+
 A Gatsby plugin to easily integrate [Cloudflare Turnstile](https://developers.cloudflare.com/turnstile/) client-side.
 
 ## Installation
