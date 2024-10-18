@@ -18,7 +18,7 @@
     "url": "git+https://github.com/cometkim/gatsby-plugin-turnstile.git"
   },
   "homepage": "https://github.com/cometkim/gatsby-plugin-turnstile",
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@4.5.1",
   "scripts": {
     "prepack": "yarn build",
     "build": "babel gatsby -x .ts,.tsx -d . --presets gatsby-package"
